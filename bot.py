@@ -1,4 +1,4 @@
-import requests
+limport requests
 from bs4 import BeautifulSoup
 import smtplib, ssl
 
@@ -22,11 +22,11 @@ if(price > str(2700)):
 	smtp_port = 465
 
 	# on rentre les informations sur notre adresse e-mail
-	email_address = 'priamantoine07@gmail.com'
-	email_password = 'newmotdepasse2007'
+	email_address = 'email_address@gmail.com'
+	email_password = 'email_password'
 
 	# on rentre les informations sur le destinataire
-	email_receiver = 'priamantoine07@gmail.com'
+	email_receiver = 'email_receiver@gmail.com'
 
 	email_subject = 'MyEthereumPriceTracker'
 
